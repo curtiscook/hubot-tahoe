@@ -1,6 +1,6 @@
 {
-  "name": "hubot-drizzy",
-  "description": "A hubot script to show some Drake Quotes",
+  "name": "hubot-tahoe",
+  "description": "A hubot script to show some snow",
   "version": "1.1.4",
   "author": "C Cook",
   "license": "MIT",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:curtiscook/hubot-drizzy.git"
+    "url": "git@github.com:curtiscook/hubot-tahoe.git"
   },
   "bugs": {
-    "url": "https://github.com/curtiscook/hubot-drizzy/issues"
+    "url": "https://github.com/curtiscook/hubot-tahoe/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6"
@@ -26,6 +26,6 @@
   },
   "main": "index.coffee",
   "scripts": {
-    "test": "mocha -R spec --compilers coffee:coffee-script test/drizzy.coffee"
+    "test": "mocha -R spec --compilers coffee:coffee-script test/tahoe.coffee"
   }
 }
