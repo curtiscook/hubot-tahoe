@@ -1,0 +1,31 @@
+{
+  "name": "hubot-drizzy",
+  "description": "A hubot script to show some Drake Quotes",
+  "version": "1.1.4",
+  "author": "C Cook",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:curtiscook/hubot-drizzy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/curtiscook/hubot-drizzy/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha -R spec --compilers coffee:coffee-script test/drizzy.coffee"
+  }
+}
